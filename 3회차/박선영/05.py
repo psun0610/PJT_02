@@ -42,8 +42,10 @@ def credits(title):
     response = requests.get(URL+path, params=params).json()
 
     # response 결과값 보려고 파일 만들어 봄
+    '''
     with open('3회차/박선영/credit.txt', 'w', encoding='utf-8') as f:
         f.write(f'{response}')
+    '''
 
     cast_result = []
     crew_result = []
