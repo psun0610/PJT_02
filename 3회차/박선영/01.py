@@ -6,6 +6,7 @@
 
 import requests
 from pprint import pprint
+from dotenv import load_dotenv
 
 def popular_count():
     pass 
@@ -28,5 +29,6 @@ if __name__ == '__main__':
     """
     popular 영화목록의 개수 반환
     """
+    load_dotenv()
     print(popular_count())
     # 20
